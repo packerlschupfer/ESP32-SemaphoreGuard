@@ -1,0 +1,35 @@
+{
+  "name": "ESP32-SemaphoreGuard",
+  "version": "0.1.0",
+  "description": "RAII wrapper for FreeRTOS semaphores with automatic resource management and null safety",
+  "keywords": [
+    "freertos",
+    "semaphore",
+    "raii",
+    "esp32",
+    "thread-safety",
+    "resource-management",
+    "cpp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/packerlschupfer/ESP32-SemaphoreGuard.git"
+  },
+  "authors": [
+    {
+      "name": "packerlschupfer",
+      "email": "packerlschupfer@noreply.github.com",
+      "maintainer": true
+    }
+  ],
+  "homepage": "https://github.com/packerlschupfer/ESP32-SemaphoreGuard",
+  "license": "GPL-3",
+  "frameworks": [
+    "espidf",
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32"
+  ],
+  "dependencies": {}
+}
